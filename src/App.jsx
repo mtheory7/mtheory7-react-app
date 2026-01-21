@@ -27,7 +27,7 @@ function App() {
         "Outlook not so good",
         "Very doubtful"
     ]
-    const [responseIndex, setResponseIndex] = useState(0)
+    const [responseIndex, setResponseIndex] = useState(eightBallResponses.length)
 
     return (
         <>
